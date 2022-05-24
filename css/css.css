@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap');
+/* _inicio_ */
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    /* font-size: 15px; */
+    line-height: 150%;
+}
+
+.vector1{
+    /* position: absolute; */
+    /* left: 36.67%; */
+    /* right: 37.43%; */
+    /* top: 0%; */
+    /* bottom: 0%;  */
+    width:1.6%;
+    /* margin-left: 84px ; */
+    margin-left: 5.5%;
+    /* margin-top: 40px; */
+    margin-top: 2%;
+    /* width 31.09px; */
+    /* height:4%; */
+    /* 48px; */
+    /* background: #0A3871; */
+}  
+/* .logo{
+width: 1%;
+height: 10%;
+} */
+main{
+    /* segun dice alura es la manera mas facil de manipular los elementos pero no se por que */
+    display: flex;
+    /* flex-direction: row; */
+    border: solid 4px;
+    height: 600px;
+    width: 100%
+}
+.section1{
+    /* border: solid 4px; */
+    margin-left: 12%;
+    margin-top: 5%;
+    /* height: 500px; */
+    width: 50%;
+    height: 480px;
+}
+.area_ingreso{
+/* margin-top: 80px; */
+/* margin-top: 10.5%; */
+margin-top: 1%;
+/* font-size: 20px; */
+font-size: 120%;
+/* margin-left: 240px; */
+/* margin-left: 31.5%; */
+/* border: solid 2px; */
+width: 100%;
+height: 50%;
+}
+.div_admiracion_texto{
+    /* position: relative; */
+    /* float: left; */
+    /* display: inline-block; */
+    display: flex;
+    width: 90%;
+    /* border: solid 2px; */
+    margin-top: 30%;
+}
+.img_admiracion{
+    /* border: solid 1px; */
+    /* width: 30px; */
+    width: 2%;
+    height: 2%;
+    /* vertical-align: 50%; */
+    margin-top: auto;
+    margin-bottom:auto;     
+}
+.texto_admiracion{
+    /* border: solid 1px;     */
+    /* width: 55%; */
+    font-size:65%;      
+    margin-left: 1%;
+}
+.div_botones{
+    display: inline;
+    /* vertical-align: right; */
+    /* position: relative; */
+    /* border: 2px solid green; */
+    /* height: auto; */
+    /* vertical-align: middle; */
+    /* margin-top: 2%; */
+}
+.div_botones button{
+    /* display: flex;     */
+    /* border: solid; */
+    align-items: flex-start;
+    width: 48%;
+    height: 10%;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* flex-direction: row; */
+    border-radius: 10px;
+ }
+ .btn_encriptar{
+     margin-right: 2%;
+     background: darkblue;
+     color: white
+}
+ .btn_encriptar2{
+    margin-right: 0;
+    padding-right:0; 
+    background: lightblue;    
+}
+.btn_copiar{
+    display: block;
+    width: 90%;
+    height: 9%;
+    border-radius: 10px;
+}
+.section2{
+    display: block;    
+    width: 28%;
+    height: 580px;
+    border: solid 4px;
+    margin-left: 5%;
+}
+.muneco{
+    display: flex;
+    /* position: relative; */
+    width: 90%;
+    height: 40%;
+    border: solid;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding-left: 10%; */
+    /* padding-right: 10%;     */
+    box-sizing: border-box;
+}
+.p1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
+.p2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 80%;
+    
+}
+.area_salida{
+    position: relative;
+    /* margin-top: 20px; */
+    /* margin-left: 90px; */
+}
